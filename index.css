@@ -1,0 +1,55 @@
+body {
+    min-height: 100vh;
+    position: relative;
+    background: url("images/image.1.jpg") no-repeat right center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    border-width: thin;
+    border-color:rgba(0, 0, 0, .5);
+}
+.regform {
+    width: 600px;
+    margin: right 100px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px 30px;
+}
+.regform h3 {
+    text-align:left;
+    color: rgb(28, 166, 201);
+    font-size: 30px;
+}
+.regform label {
+    display: contents;
+}
+.input input {
+    width:30%;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+
+}
+.input select {
+    width: 30%;
+    font-size:1.2em;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+.btn {
+    text-align: left;
+}
+button {
+    background-color: rgb(45, 136, 211);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: 1px ;
+    box-shadow: 2px;
+
+}
+
+
